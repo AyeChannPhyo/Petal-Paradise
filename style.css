@@ -1,0 +1,347 @@
+/* font-family: 'Courgette', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+:root {
+  --main-font: Roboto Slab, serif;
+  --second-font: Poppins, sans-serif;
+  --title-font: Courgette, cursive;
+  --text-color: #384752;
+  --background-color: #bcbca6;
+  --secondary-color: #e8e8ce;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/main-bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+/* Header Start */
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/main-bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.main {
+  max-width: 1200px;
+  height: auto;
+}
+.title h1 {
+  font-family: var(--title-font);
+  color: white;
+  font-size: 70px;
+  text-align: center;
+
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title-test h5 {
+  color: white;
+  font-family: var(--title-font);
+  text-align: center;
+
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Header End */
+
+/* Section Start */
+
+.article-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/main-bg.jpg);
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.article-section .card-body {
+  background-color: var(--secondary-color);
+}
+.article-section .card-body .card-title {
+  font-family: var(--main-font);
+  font-size: 20px;
+  color: var(--text-color);
+}
+.article-section .card-body .card-text {
+  font-family: var(--second-font);
+  color: var(--text-color);
+}
+.section-title {
+  color: white;
+  font-family: var(--title-font);
+  text-align: center;
+  margin-top: 10px;
+  font-size: 40px;
+  border: 1px solid #fff;
+  background-color: var(--text-color);
+  padding: 5px;
+}
+/* Section End */
+
+/* Mart Section Start */
+.mart-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/main-bg.jpg);
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.mart-title {
+  float: left;
+}
+.mart {
+  float: right;
+}
+.mart p {
+  display: inline-block;
+}
+
+.mart-main-title {
+  color: white;
+  font-family: var(--title-font);
+  text-align: center;
+  margin-top: 10px;
+  font-size: 40px;
+  border: 1px solid #fff;
+  background-color: var(--text-color);
+  padding: 5px;
+}
+.mart-section .card-body {
+  background-color: var(--secondary-color);
+}
+.mart-section .card-body .card-title {
+  font-family: var(--main-font);
+  font-size: 18px;
+  color: var(--text-color);
+}
+/* Mart Section End */
+
+/* Service Section Start */
+.service-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/main-bg.jpg);
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+.service-section .card-body {
+  background-color: var(--secondary-color);
+}
+.service-section .card-body .card-title {
+  font-family: var(--main-font);
+  font-size: 20px;
+  color: var(--text-color);
+}
+.service-section .card-body .card-text {
+  font-family: var(--second-font);
+  color: var(--text-color);
+}
+.service-section img {
+  background-position: center;
+}
+/* Service Section End */
+
+/* Footer Section Start */
+footer {
+  background-color: var(--text-color);
+}
+.address span {
+  font-family: var(--main-font);
+  font-size: 17px;
+  color: var(--text-color);
+}
+.address .contact label {
+  font-family: var(--main-font);
+  font-size: 17px;
+  color: var(--text-color);
+}
+.address .contact .btn input {
+  background-color: var(--text-color);
+  color: var(--secondary-color);
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+}
+/* Footer Section End */
+
+/* Responsive Start */
+@media screen and (max-width: 1440px) {
+  /* Head Start */
+  .title h1 {
+    font-family: var(--title-font);
+    color: white;
+    font-size: 70px;
+    text-align: center;
+
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .title-test h5 {
+    color: white;
+    font-family: var(--title-font);
+    text-align: center;
+
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* Head End */
+}
+@media screen and (max-width: 1024px) {
+  /* Head Start */
+  .title h1 {
+    font-family: var(--title-font);
+    color: white;
+    font-size: 70px;
+    text-align: center;
+
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .title-test h5 {
+    color: white;
+    font-family: var(--title-font);
+    text-align: center;
+
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* Head End */
+
+  /* Footer Start */
+  .container .name input,
+  .container .email input,
+  .container .comment input {
+    width: 300px;
+    margin-left: 10px;
+  }
+  /* Footer End */
+}
+
+@media screen and (max-width: 768px) {
+  /* Head Start */
+  .title h1 {
+    font-family: var(--title-font);
+    color: white;
+    font-size: 70px;
+    text-align: center;
+
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .title-test h5 {
+    color: white;
+    font-family: var(--title-font);
+    text-align: center;
+
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* Head End */
+
+  /* Footer Start */
+  .container .name input,
+  .container .email input,
+  .container .comment input {
+    width: 200px;
+    margin-left: 10px;
+  }
+  /* Footer End */
+}
+
+@media screen and (max-width: 576px) {
+  /* Head Start */
+  .title h1 {
+    font-family: var(--title-font);
+    color: white;
+    font-size: 45px;
+    text-align: center;
+
+    position: absolute;
+    width: 100%;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .title-test h5 {
+    color: white;
+    font-family: var(--title-font);
+    text-align: center;
+
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* Head End */
+}
+/* Responsive End */
+
+/* Hover Start */
+.navbar div {
+  background-color: var(--secondary-color);
+}
+nav .navbar-brand {
+  color: var(--text-color);
+  font-size: 25px;
+  font-family: var(--title-font);
+}
+nav #navbarNav ul li a {
+  color: var(--text-color);
+  font-size: 20px;
+  font-family: var(--second-font);
+}
+nav #navbarNav ul li a:hover {
+  background-color: var(--text-color);
+  color: var(--secondary-color);
+  border: 1px solid #fff;
+}
+
+.article-section .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(41, 41, 41, 0.19);
+}
+
+.article-section .card:hover,
+.mart-section .card:hover,
+.service-section .card:hover {
+  border: 2px solid #fff;
+  box-shadow: 1px 1px 4px 4px #bcbca6;
+}
+
+.address .contact .btn input:hover {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+/* Hover End */

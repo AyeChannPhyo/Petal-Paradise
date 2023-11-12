@@ -1,0 +1,119 @@
+/* --iconcolor: #d55c5a;
+--fontcolor: #8a4243;
+--main-bgcolor: #524945;
+--secondary-bgcolor: #ebd4cc; */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-font: Roboto Slab, serif;
+  --second-font: Poppins, sans-serif;
+  --title-font: Courgette, cursive;
+  --text-color: #384752;
+  --background-color: #bcbca6;
+  --secondary-color: #e8e8ce;
+}
+
+.nav-box h1 span {
+  color: var(--text-color);
+}
+nav,
+main {
+  background: var(--background-color);
+}
+
+.list-group .list-group-item {
+  background-color: var(--text-color);
+  border: 3px solid;
+  border-color: var(--secondary-color);
+
+  color: var(--background-color);
+  font-family: var(--main-font);
+}
+
+.list-group a:hover {
+  background-color: #67869b;
+  color: #fff;
+}
+
+.col .followers-card,
+.col .subscribers-card,
+.col .views-card,
+.col .likes-card {
+  border-radius: 0;
+}
+
+.followers-card .card-body,
+.subscribers-card .card-body,
+.views-card .card-body,
+.likes-card .card-body {
+  background: var(--secondary-color);
+  border: 2px solid var(--text-color);
+}
+
+.followers-card .text,
+.subscribers-card .text,
+.views-card .text,
+.likes-card .text {
+  color: var(--text-color);
+  font-family: var(--main-font);
+}
+
+.col .doughchart,
+.col .piechart {
+  background: var(--secondary-color);
+  border: 1px solid;
+  border-color: var(--text-color);
+  border-radius: 0;
+}
+.dchart {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pchart {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lchart-col .lchart-card {
+  border-color: var(--text-color);
+  border-radius: 0;
+}
+.lchart-container {
+  background: var(--secondary-color);
+}
+
+.order-table .order-card,
+.card-table .table th,
+.card-table .table td {
+  background-color: var(--secondary-color);
+  font-family: var(--main-font);
+}
+
+.order-table .order-card {
+  border-color: var(--text-color);
+  border-radius: 0;
+}
+
+.card-table table {
+  border-bottom: 1px;
+  border-color: var(--text-color);
+  border-radius: 0;
+}
+.order-card .card-title,
+.table tr th,
+.table tr td {
+  color: var(--text-color);
+}
+
+.table tr .g-status {
+  color: rgb(54, 184, 54);
+}
+
+.table tr .r-status {
+  color: rgb(233, 67, 67);
+}

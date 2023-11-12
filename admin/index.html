@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Petal Paradise</title>
+    <!-- Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&family=Poppins&family=Roboto+Slab&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Bootstrap Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anon
+      ymous"
+    />
+
+    <!-- Fontawsome css Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row g-0">
+        <nav class="col-2 pe-3">
+          <!-- logo & title -->
+          <div class="nav-box sticky-top" style="background-color: #bcbca6">
+            <h1 class="logo h4 text-center py-3">
+              <span class="d-none d-lg-inline">Petal Paradise</span>
+            </h1>
+          </div>
+          <!-- <h1 class="logo h4 text-center text-primary py-3 ">
+            <i class="fa-regular fa-gem" style="color: #e49a99"></i>
+            <span class="d-none d-lg-inline">Glamour</span>
+          </h1> -->
+
+          <!--First Group -->
+          <div class="list-group m-4">
+            <a href="#" class="list-group-item list-group-item-action">
+              <i class="fa-solid fa-table-columns" style="color: #bcbca6"></i>
+              <span class="d-none d-lg-inline text-center">Dashboard</span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <i class="fa-solid fa-boxes-stacked" style="color: #bcbca6"></i>
+              <span class="d-none d-lg-inline text-center">Products</span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <i class="fa-solid fa-users" style="color: #bcbca6"></i>
+              <span class="d-none d-lg-inline text-center">Customers</span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <i class="fa-solid fa-box-open" style="color: #bcbca6"></i>
+              <span class="d-none d-lg-inline text-center">Order</span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <i class="fa-solid fa-pen-to-square" style="color: #bcbca6"></i>
+              <span class="d-none d-lg-inline text-center">Report</span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <i class="fa-solid fa-envelope" style="color: #bcbca6"></i>
+              <span class="d-none d-lg-inline text-center">Mail Box</span>
+            </a>
+          </div>
+
+          <!-- Second Group -->
+          <div class="list-group m-4">
+            <a href="#" class="list-group-item list-group-item-action">
+              <i class="fa-solid fa-gear" style="color: #bcbca6"></i>
+              <span class="d-none d-lg-inline text-center">Setting</span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <i
+                class="fa-solid fa-arrow-right-from-bracket"
+                style="color: #bcbca6"
+              ></i>
+              <span class="d-none d-lg-inline text-center">Sign Out</span>
+            </a>
+          </div>
+        </nav>
+
+        <main class="col-10">
+          <!-- Search Bar -->
+          <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <div class="flex-fill"></div>
+            <nav class="navbar">
+              <div class="container-fluid">
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                  />
+                </form>
+              </div>
+            </nav>
+          </nav>
+
+          <!-- Card Part -->
+          <div class="container-fluid m-2 p-1">
+            <div class="row flex-column flex-lg-row mx-2">
+              <!-- Followers -->
+              <div class="col">
+                <div class="followers-card card mb-3">
+                  <div class="card-body p-2">
+                    <h3 class="card-title m-2" style="display: inline">
+                      <i
+                        class="fa-solid fa-user-plus"
+                        style="color: #384752"
+                      ></i>
+                    </h3>
+                    <div class="span-box" style="float: right">
+                      <span class="text"> Followers </span> <br />
+                      <span class="text h4">2822</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Subscribers -->
+              <div class="col">
+                <div class="subscribers-card card mb-3">
+                  <div class="card-body p-2">
+                    <h3 class="card-title m-2" style="display: inline">
+                      <i class="fa-solid fa-bell" style="color: #384752"></i>
+                    </h3>
+                    <div class="span-box" style="float: right">
+                      <span class="text"> Subscribers </span> <br />
+                      <span class="text h4">2840</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Total Views -->
+              <div class="col">
+                <div class="views-card card mb-3">
+                  <div class="card-body p-2">
+                    <h3 class="card-title m-2" style="display: inline">
+                      <i class="fa-solid fa-eye" style="color: #384752"></i>
+                    </h3>
+                    <div class="span-box" style="float: right">
+                      <span class="text"> Total Views </span> <br />
+                      <span class="text h4">224k</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Total Likes -->
+              <div class="col">
+                <div class="likes-card card mb-3">
+                  <div class="card-body p-2">
+                    <h3 class="card-title m-2" style="display: inline">
+                      <i
+                        class="fa-solid fa-thumbs-up"
+                        style="color: #384752"
+                      ></i>
+                    </h3>
+                    <div class="span-box" style="float: right">
+                      <span class="text"> Total Likes </span> <br />
+                      <span class="text h4">28k</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dough & Pie Chart -->
+          <div class="container">
+            <div class="row flex-column flex-lg-row mx-2">
+              <!-- Line Chart -->
+              <div class="lchart-col col">
+                <div class="lchart-card card">
+                  <div class="lchart-container container">
+                    <div class="row flex-column flex-lg-row mx-2">
+                      <div class="col">
+                        <div class="lchart p-2">
+                          <canvas id="linechart"></canvas>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Dough Chart -->
+              <!-- <div class="col">
+                <div class="doughchart card">
+                  <div class="dchart p-2" style="width: 200px; height: 200px">
+                    <canvas id="doughnut"></canvas>
+                  </div>
+                </div>
+              </div> -->
+
+              <!-- Pie Chart -->
+              <!-- <div class="col">
+                <div class="piechart card">
+                  <div class="pchart p-2" style="width: 200px; height: 200px">
+                    <canvas id="piechart"></canvas>
+                  </div>
+                </div>
+              </div> -->
+
+              <!-- Dough Chart -->
+              <div class="col">
+                <div class="doughchart card">
+                  <div class="dchart p-2" style="width: 200px; height: 200px">
+                    <canvas id="doughnut"></canvas>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pie Chart -->
+              <div class="col">
+                <div class="piechart card">
+                  <div class="pchart p-2" style="width: 200px; height: 200px">
+                    <canvas id="piechart"></canvas>
+                  </div>
+                </div>
+              </div>
+              <!-- Average Sale & New Net Income -->
+              <!-- <div class="col">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <h4 style="display: inline">
+                      <i class="fa-solid fa-percent" style="color: #e8e8ce"></i>
+                    </h4>
+                    <div class="text-part" style="float: right">
+                      <h4>12.350</h4>
+                      <span>Averages Sales</span>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <h4 style="display: inline">
+                      <i
+                        class="fa-solid fa-money-check-dollar"
+                        style="color: #e8e8ce"
+                      ></i>
+                    </h4>
+                    <div class="text-part" style="float: right">
+                      <h4>$28.242</h4>
+                      <span>New Net Income</span>
+                    </div>
+                  </li>
+                </ul>
+              </div> -->
+            </div>
+          </div>
+
+          <!-- Line Chart & Table -->
+          <div class="row flex-column flex-lg-row m-4">
+            <!-- Line Chart -->
+            <!-- <div class="lchart-col col">
+              <div class="lchart-card card">
+                <div class="lchart-container container">
+                  <div class="row flex-column flex-lg-row mx-2">
+                    <div class="col">
+                      <div class="lchart p-2">
+                        <canvas id="linechart"></canvas>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- Average Sale & New Net Income -->
+            <div class="col">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <h4 style="display: inline">
+                    <i class="fa-solid fa-percent" style="color: #e8e8ce"></i>
+                  </h4>
+                  <div class="text-part" style="float: right">
+                    <h4 style="font-family: Roboto Slab, serif">12.350</h4>
+                    <span style="font-family: Roboto Slab, serif"
+                      >Averages Sales</span
+                    >
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <h4 style="display: inline">
+                    <i
+                      class="fa-solid fa-money-check-dollar"
+                      style="color: #e8e8ce"
+                    ></i>
+                  </h4>
+                  <div class="text-part" style="float: right">
+                    <h4 style="font-family: Roboto Slab, serif">$28.242</h4>
+                    <span style="font-family: Roboto Slab, serif"
+                      >New Net Income</span
+                    >
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- Order Table -->
+            <div class="order-table col">
+              <div class="order-card card">
+                <div class="card-body">
+                  <h5 class="card-title">Recent Order</h5>
+                  <div class="card-table p-2">
+                    <table class="table">
+                      <tr>
+                        <th>Product</th>
+                        <th>Customer</th>
+                        <th>Product Code</th>
+                        <th>Price</th>
+                        <th>Status</th>
+                      </tr>
+
+                      <tr>
+                        <td>Tulip Bouquet</td>
+                        <td>Ava</td>
+                        <td>1256</td>
+                        <td>$280</td>
+                        <td class="g-status">Delivered</td>
+                      </tr>
+                      <tr>
+                        <td>Roses Basket</td>
+                        <td>Stella</td>
+                        <td>1257</td>
+                        <td>$320</td>
+                        <td class="g-status">Delivered</td>
+                      </tr>
+
+                      <tr>
+                        <td>Sunflower Bouquet</td>
+                        <td>Rose</td>
+                        <td>1145</td>
+                        <td>$400</td>
+                        <td class="g-status">Delivered</td>
+                      </tr>
+
+                      <tr>
+                        <td>Pink Rose Basket</td>
+                        <td>Emma</td>
+                        <td>1146</td>
+                        <td>$220</td>
+                        <td class="r-status">Pending</td>
+                      </tr>
+
+                      <tr>
+                        <td>Sunflower Bouquet</td>
+                        <td>Emma</td>
+                        <td>1520</td>
+                        <td>$400</td>
+                        <td class="g-status">Delivered</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- Chart Link -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="dchart.js"></script>
+    <script src="pchart.js"></script>
+    <script src="lchart.js"></script>
+    <!-- Fontawsome js Link -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+      integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
